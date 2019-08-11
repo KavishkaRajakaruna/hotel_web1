@@ -1,0 +1,71 @@
+body , html{
+	height: 100%;
+	margin: 0;
+	font-family: Cooper Black;
+	color:  #000000;
+	-webkit-text-stroke:1px #ffffff;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.bg-image {
+	background-image: url("pictures/bg_dashboard.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: blur(3px);
+	height: 93%;
+
+}
+.tabs{
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: black;
+	
+	z-index: -1;
+}
+.tabs button{
+	background-color: inherit;
+	float: left;
+	border: 1px solid black;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+.tabs button:hover{
+	background-color: grey;
+}
+.tabs label{
+	background-color: white;
+	float: right;
+	font-size: 20px;
+	padding-top: 12px background-color:grey;
+}
+.tabs img{
+	float: right;
+	height: 50px;
+	width: 50px;
+	border:1px solid white;
+	border-radius: 100%;
+}
+#username{
+	float: right;
+
+}
+.tabcontent{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#home{
+	font-size: 40px;
+	border:2px solid black;
+	text-align: center;
+	padding: 10px;
+}
+#home p{
+	text-align: left;
+}

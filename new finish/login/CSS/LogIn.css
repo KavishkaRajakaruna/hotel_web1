@@ -1,0 +1,76 @@
+h1{
+	font-size: 50px;
+}
+body , html{
+	height: 100%;
+	margin: 0;
+	font-family: Cooper Black;
+	color:  #000000;
+	-webkit-text-stroke:1px #ffffff;
+}
+*{
+	box-sizing: border-box;
+}
+
+.bg-image , head{
+	background-image: url("pictures/wallpaper_login.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: blur(3px);
+	height: 100%
+
+
+}
+
+.logo{
+	text-align: center;
+}
+.container{
+	margin:24px 0 12px 0;
+}
+input{
+	opacity: 0.6;
+	border-style: solid;
+	border-width: 5px;
+	border-radius:5px;
+	width: 300px;
+	position: relative;
+	left: auto;
+	right: auto;
+}
+input:focus{
+	border:3px slod #555;
+}
+input:hover{
+	opacity: 1.0;
+}
+.form{
+	padding: 20px;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	font-size: 30px;
+	align-items: middle;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	z-index: 2;
+	border:3px solid #d9d9d9;
+
+}
+
+button{
+	padding: 15px 32px;
+	font-size: 20px;
+	border-radius: 15px;
+	cursor: pointer;
+	opacity:0.7;
+
+}
+button:hover{
+	opacity: 1;
+}
+label{
+	left: 40%
+}
